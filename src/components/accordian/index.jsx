@@ -3,7 +3,6 @@ import data from './data';
 import './style.css';
 
 const Accordian = () => {
-
     const [selected, setSelected] = useState(null);
     const [enableMultiSelection, setEnableMultiSelection] = useState(false);
     const [multiple, setMultiple] = useState([]);
